@@ -25,10 +25,10 @@ caption { margin:0; padding:.5em; }
 	Structure
 --------------------------------*/
 a { text-decoration:none; }
-html { background-image:url(https://i.ibb.co/gJKjPzp/istockphoto-1173201782-612x612.jpg); }
+html { background-image:url(https://img1.wsimg.com/isteam/ip/dfc77d59-3cad-48b7-b989-b75e41278d65/legacy/911_body.jpg); }
 body {
 	background-color:transparent;
-	background-image:url(https://i.ibb.co/gJKjPzp/istockphoto-1173201782-612x612.jpg);
+	background-image:url(https://img1.wsimg.com/isteam/ip/dfc77d59-3cad-48b7-b989-b75e41278d65/legacy/911_clouds.png);
 	background-position:top right;
 	background-repeat:repeat-x;
 	color:#797155;
@@ -38,6 +38,7 @@ body {
 	margin:0;
 	padding:0;
 	text-shadow:1px 1px 1px #f2eace;
+}
 }
 .sf_outer_wrapper {
 	background-position:center;
