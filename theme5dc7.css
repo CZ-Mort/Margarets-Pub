@@ -260,7 +260,7 @@ body {
 	background-repeat:no-repeat;
 	color:#bd0419;
 	padding:20px;
-	text-shadow:1px 1px 1px #e6dbb5;
+	text-shadow:1px 1px 1px #8c0010;
 }
 .sf_region8 {
 	float:right;
@@ -272,7 +272,7 @@ body {
 	IE 6&7
 --------------------------------*/
 * html .sf_main_wrapper {
-	background-color:#d6cb9e;
+	background-color:#8c0010;
 	margin-top:400px;
 	padding:15px 15px 0;
 	width:692px;
@@ -291,5 +291,5 @@ body {
 	clear: both;
 	margin-top: 20px;
 	text-shadow: 0px 0px 0px;
-	color: #D5CA9D;
+	color: #8c0010;
 }
