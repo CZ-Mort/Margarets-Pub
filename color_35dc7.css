@@ -9,7 +9,7 @@ a:visited { color:#398f39; }
 a:hover { color:#000000; }
 .sf_outer_wrapper { background-image:url(https://img1.wsimg.com/isteam/ip/dfc77d59-3cad-48b7-b989-b75e41278d65/legacy/911_sidebar_3.png); }
 .sf_main_header {
-	border-color:#51834f;
+	border-color:#b0091f;
 	color:#406636;
 	text-shadow:1px 1px 1px #85b380;
 }
@@ -23,9 +23,9 @@ a:hover { color:#000000; }
 	text-shadow:1px 1px 1px #85b380;
 }
 .widgetset a:hover { color:#000000; }
-.widgetset .widget_header { border-color:#51834f; }
+.widgetset .widget_header { border-color:#b0091f; }
 .sf_navigation ul li a { color:#5d955d; }
-.sf_navigation ul li a:visited { color:#5d955d; }
+.sf_navigation ul li a:visited { color:#b0091f; }
 .sf_navigation ul li a:hover { color:#406636; }
 
 .sf_navigation ul li.active-nav a {
