@@ -62,14 +62,19 @@ N,Dunkinvil, NSW<br />
 					<div class="sf_pagetitle" >Welcome to Margarets Pub!<div style="display:block;><font style="font-size: 46px;" ><h1></h1></div></div><div class="sf_content" ><div class="LayoutContainer" style="display:block; ><font style="font-size: 36px;"" ><div><div style="display:block;overflow:hidden;" ><font face="Comic Sans MS, cursive"><br />
   <div class="content">
    <!DOCTYPE html>
+<!DOCTYPE html>
 <html>
     <head>
         <title>Image Gallery</title>
         <style>
+            .gallery {
+                display: flex;
+                justify-content: space-between;
+            }
             .image-container {
-                width: 800px;
+                flex: 1;
                 text-align: center;
-                margin-bottom: 20px;
+                margin: 0 10px;
             }
             .image-container img {
                 width: 100%;
@@ -84,13 +89,28 @@ N,Dunkinvil, NSW<br />
         </style>
     </head>
     <body>
-        <div class="image-container">
-            <h3>Our Location</h3>
-            <img src="images/location1.jpeg" alt="Image Description">
-            <p>our supreme leader at the grand opening of the restaurant</p>
-        </div>
+        <div class="gallery">
+            <div class="image-container">
+                <h3>Our Leader</h3>
+                <img src="images/location1.jpg" alt="Image Description 1">
+                <p>our supreme leader at the grand opening of the restaurant</p>
+            </div>
 
-        <!-- You can add more images by copying and pasting the above div -->
+            <div class="image-container">
+                <h3>Our Customers</h3>
+                <img src="images/customer.jpg" alt="Sally "so easy to get to and the food is great">
+                <p></p>
+            </div>
+
+            <div class="image-container">
+                <h3>Image Heading 3</h3>
+                <img src="images/poster.jpg" alt="Image Description 3">
+                <p>Brief description of the image 3</p>
+            </div>
+        </div>
+    </body>
+</html>
+
 
     </body>
 </html>
