@@ -55,17 +55,63 @@
 			<div class="sf_main">
 				<div class="sf_region6">
 					<div class="sf_pagetitle" ><div style="display:block;" ></div></div><div class="sf_content" ><div class="LayoutContainer" style="display:block;" ><div><div style="display:block;overflow:hidden;" ><span style="font-style: normal;"><font face="Times New Roman, Times, serif">&lt;Sermon_list_Full.doc_&gt;</font></span></div></div></div></div>
-				</div>
-			</div>
-			<!-- /sf_main_wrapper -->
-		</div>
-		<!-- /sf_main -->
-		<div class="sf_extra12"><span></span></div>
-		<div class="sf_region7">
-			<div class="sf_footer" ><div style="display:block;" ><font face="MS Serif, New York, serif"><span style="font-style: normal; color: #151b3d; background-color: #c7be83;">"Be strong and of a good courage; be not afraid, neither be thou dismayed: for the LORD thy God is with thee whithersoever thou goest." </span><span style="color: #151b3d; background-color: #c7be83;">Joshua 1:9</span></font></div></div>
-		</div>
-<!-- the line below embeds soundcloud music -->
-<iframe width="100%" height="0" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/1065424435&color=%23ff5500&auto_play=true&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true"></iframe><div style="font-size: 10px; color: #cccccc;line-break: anywhere;word-break: normal;overflow: hidden;white-space: nowrap;text-overflow: ellipsis; font-family: Interstate,Lucida Grande,Lucida Sans Unicode,Lucida Sans,Garuda,Verdana,Tahoma,sans-serif;font-weight: 100;"><a href="https://soundcloud.com/daniel-keaney-257310716" title="George Pell Beats" target="_blank" style="color: #cccccc; text-decoration: none;">George Pell Beats</a> · <a href="https://soundcloud.com/daniel-keaney-257310716/rapping-for-jesus" title="rapping for jesus" target="_blank" style="color: #cccccc; text-decoration: none;">rapping for jesus</a></div>
+<html>
+<head>
+  <style>
+    .menu-item, .drink-item {
+      border: 1px solid #ddd;
+      margin: 15px;
+      padding: 10px;
+      width: 300px;
+      text-align: center;
+    }
+    .menu-item img, .drink-item img {
+      width: 100%;
+      height: auto;
+    }
+    .menu-item h2, .menu-item p, .drink-item h2, .drink-item p {
+      margin: 0;
+      padding: 10px 0;
+    }
+    .menu, .drinks {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+    }
+  </style>
+</head>
+<body>
+  <div class="menu">
+    <h1>Menu</h1>
+    <!-- Repeat this section for each dish -->
+    <!-- Replace '#' in 'src' with your image path -->
+    <!-- Replace 'Title', 'Price' and 'Description' with your content -->
+    <?php for($i=1; $i<=12; $i++){ ?>
+      <div class="Pub Feed">
+        <h2>Dish Title <?php echo $i; ?></h2>
+        <img src="images/polpot.jpeg" alt="Dish Image <?php echo $i; ?>">
+        <h3>Price <?php echo $i; ?> 31</h3>
+        <p>Description <?php echo $i; ?></p>
+      </div>
+    <?php } ?>
+  </div>
+
+  <div class="drinks">
+    <h1>Drinks</h1>
+    <!-- Repeat this section for each drink -->
+    <!-- Replace '#' in 'src' with your image path -->
+    <!-- Replace 'Title', 'Price' and 'Description' with your content -->
+    <?php for($i=1; $i<=5; $i++){ ?>
+      <div class="drink-item">
+        <h2>Drink Title <?php echo $i; ?></h2>
+        <img src="#" alt="Drink Image <?php echo $i; ?>">
+        <h3>Price <?php echo $i; ?></h3>
+        <p>Description <?php echo $i; ?></p>
+      </div>
+    <?php } ?>
+  </div>
+</body>
+</html>
 
 		
 		<div class="sf_region8">
