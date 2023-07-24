@@ -1,15 +1,27 @@
-<!-- Here we have the Pub icon and page name -->
-<title>MP Menu</title>
-<link rel="icon" type="image/x-icon" href="/images/websiteicon.png">
+<title>Contact</title>
+<meta property="og:title" content="customertestimonials"/>
+<meta name="title" content="customertestimonials"/>
+<meta property="og:type" content="article"/>
+<meta property="og:url" content="customertestimonials.html"/>
+<meta property="og:image" content="images/TemplateThumbnail.html"/>
+<meta http-equiv='Content-Location' content='Contact.html' />
+<style type="text/css">
+body { margin:0; padding:0; }
+</style>
 
-<head>
+
+
+
+
+
+
 <link rel="stylesheet" type="text/css" id="layoutcontainer.css" href="layoutcontainer5dc7.css?1734528203" />
 <link rel="stylesheet" type="text/css" id="theme.css" href="theme5dc7.css?1734528203" />
 <link rel="stylesheet" type="text/css" id="color_3.css" href="color_35dc7.css?1734528203" />
 <link rel="stylesheet" type="text/css" id="custom.css" href="custom5dc7.css?1734528203" />
+    
 </head>
-
-<body id='page_21b0d378-f10e-46f6-a640-fd93aed55575' >
+<body id='page_337be744-d261-42f9-984b-12c9c09cb526' >
 <div class="sf_outer_wrapper">
 	<div class="sf_region1">
 		
@@ -53,98 +65,103 @@
 		<div class="sf_extra11"><span></span></div>
 		<div class="sf_main_wrapper">
 			<div class="sf_main">
-				<div class="sf_region6">				
+				<div class="sf_region6">
+					
+<!DOCTYPE html>
 <html>
-<head>
-  <style>
-    .menu-item, .drink-item {
-      border: 1px solid #ddd;
-      margin: 15px;
-      padding: 10px;
-      width: 300px;
-      text-align: center;
-    }
-    .menu-item img, .drink-item img {
-      width: 100%;
-      height: auto;
-    }
-    .menu-item h2, .menu-item p, .drink-item h2, .drink-item p {
-      margin: 0;
-      padding: 10px 0;
-    }
-    .menu, .drinks {
-      display: flex;
-      flex-wrap: wrap;
-      justify-content: center;
-    }
-  </style>
-</head>
-<body>
-  <div class="menu">
-    <h1>Menu</h1>
-    <!-- Repeat this section for each dish -->
-    <!-- Replace '#' in 'src' with your image path -->
-    <!-- Replace 'Title', 'Price' and 'Description' with your content -->
-    <?php for($i=1; $i<=12; $i++){ ?>
-      <div class="Pub Feed">
-        <h2>Dish Title <?php echo $i; ?></h2>
-        <img src="images/burger.jpeg" alt="Dish Image <?php echo $i; ?>">
-        <h3>Price $32<?php echo $i; ?> 31</h3>
-        <p>Description: burger with chips and maybe a beer if you as nicely<?php echo $i; ?></p>
-      </div>
-    <?php } ?>
-  </div>
-  
-<div class="menu">
-    <!-- Repeat this section for each dish -->
-    <!-- Replace '#' in 'src' with your image path -->
-    <!-- Replace 'Title', 'Price' and 'Description' with your content -->
-    <?php for($i=1; $i<=12; $i++){ ?>
-      <div class="Kids Feast">
-        <h2>Dish Title <?php echo $i; ?></h2>
-        <img src="images/kids.webp" alt="Dish Image <?php echo $i; ?>">
-        <h3>Price $45<?php echo $i; ?> 31</h3>
-        <p>Description: food for the kids, plenty to go around<?php echo $i; ?></p>
-      </div>
-    <?php } ?>
-  </div>
-<div class="menu">
-    <!-- Repeat this section for each dish -->
-    <!-- Replace '#' in 'src' with your image path -->
-    <!-- Replace 'Title', 'Price' and 'Description' with your content -->
-    <?php for($i=1; $i<=12; $i++){ ?>
-      <div class="Mash">
-        <h2>Dish Title <?php echo $i; ?></h2>
-        <img src="images/mash.webp" alt="Dish Image <?php echo $i; ?>">
-        <h3>Price $24<?php echo $i; ?></h3>
-        <p>Description: good old mash<?php echo $i; ?></p>
-      </div>
-    <?php } ?>
-  </div>
-  <div class="drinks">
-    <h1>Drinks</h1>
-    <!-- Repeat this section for each drink -->
-    <!-- Replace '#' in 'src' with your image path -->
-    <!-- Replace 'Title', 'Price' and 'Description' with your content -->
-    <?php for($i=1; $i<=5; $i++){ ?>
-      <div class="drink-item">
-        <h2>Drink Title <?php echo $i; ?></h2>
-        <img src="#" alt="Drink Image <?php echo $i; ?>">
-        <h3>Price <?php echo $i; ?></h3>
-        <p>Description <?php echo $i; ?></p>
-      </div>
-      <div class="drink-item">
-        <h2>Vodka<?php echo $i; ?></h2>
-        <img src="#" alt="Drink Image <?php echo $i; ?>">
-        <h3>Price <?php echo $i; ?></h3>
-        <p>what can I say its a bottle of vodka<?php echo $i; ?></p>
-      </div>
-    <?php } ?>
-  </div>
-</body>
+    <head>
+        <title>Menu - Margarets Pub</title>
+        <style>
+            .menu-container {
+                width: 600px;
+                margin: auto;
+                padding: 20px;
+                background-color: #f2f2f2;
+                border-radius: 5px;
+                margin-bottom: 20px;
+            }
+            .menu-container img {
+                width: 300px;
+                height: auto;
+                border-radius: 5px;
+                margin-bottom: 20px;
+            }
+            .menu-container h2 {
+                color: #333;
+                margin-bottom: 20px;
+            }
+            .menu-container p {
+                color: #666;
+            }
+            .menu-container span {
+                color: #333;
+                font-weight: bold;
+                display: block;
+                margin-top: 10px;
+            }
+        </style>
+    </head>
+    <body>
+        <h1 style="text-align: center;">Menu</h1>
+        <p style="text-align: center; color: #666; max-width: 800px; margin: auto; padding-bottom: 50px;">
+            Welcome to Margarets Pub. Here's a taste of what we have to offer.
+        </p>
+        
+        <div class="menu-container">
+            <img src="images/mash.webp" alt="Dish 1">
+            <h2>Bangers and Mash</h2>
+            <p>Enjoy our traditional Bangers and Mash, a hearty, comforting dish perfect for any meal. We serve plump, juicy sausages, freshly made from local meats, atop a bed of fluffy, buttery mashed potatoes. The dish is covered with a rich, flavorful onion gravy that perfectly complements the sausages and potatoes. Served with a side of bright, sweet peas, our Bangers and Mash is a meal to remember.</p>
+            <span>$14.99</span>
+        </div>
+
+        <div class="menu-container">
+            <img src="kids.webp" alt="Dish 2">
+            <h2>Dish 2</h2>
+            <p>This beloved family favourite, crafted personally by Supreme Leader Kim Jong Un, features soft noodles in a rich broth, tender meats, and fresh veggies. A perfect harmony of taste and tradition for our young patrons.</p>
+            <span>$10.99</span>
+        </div>
+
+        <div class="menu-container">
+            <img src="burger.jpeg" alt="Dish 3">
+            <h2>Margaret's Pub Specialty Burger</h2>
+            <p>The ultimate feast for burger lovers! Our specialty burger is loaded with premium quality beef, fresh, crispy lettuce, juicy tomatoes, pickles, melted cheese, and our secret house sauce, all nestled between two perfectly toasted buns. Indulge in the flavors that make Margaret's Pub a must-visit destination.</p>
+            <span>$14.99</span>
+        </div>
+
+        <div class="menu-container">
+            <img src="chicken.jpeg" alt="Dish 4">
+            <h2>Margaret's Crispy Fried Chicken</h2>
+            <p>Description of the fourth dish...</p>
+            <span>$11.99 6 pieces</span>
+        </div>
+
+        <div class="menu-container">
+            <img src="apple.jpeg" alt="Dish 5">
+            <h2>Margaret's Homemade Apple Pie </h2>
+            <p>Finish your meal with a slice of our homemade apple pie, featuring sweet, tangy apples enveloped in a flaky, buttery crust. A sweet ending to a delicious meal!</p>
+            <span>$5.99</span>
+        </div>
+
+        <div class="menu-container">
+            <img src="redbull.jpeg" alt="Dish 6">
+            <h2>Red Bull</h2>
+            <p>Need a pick-me-up after walking down Pol-Pot Road? Enjoy the uplifting and invigorating effects of Red Bull, packed with caffeine and taurine to give you wings when you need them most!</p>
+            <span>$3.99</span>
+        </div>
+
+    </body>
 </html>
 
-		
+
+				</div>
+			</div>
+			<!-- /sf_main_wrapper -->
+		</div>
+		<!-- /sf_main -->
+		<div class="sf_extra12"><span></span></div>
+		<div class="sf_region7">
+			<div class="sf_footer" ><div style="display:block;" ><font face="MS Serif, New York, serif"><span style="font-style: normal; color: #151b3d; background-color: #c7be83;">"Be strong and of a good courage; be not afraid, neither be thou dismayed: for the LORD thy God is with thee whithersoever thou goest." </span><span style="color: #151b3d; background-color: #c7be83;">Joshua 1:9</span></font></div></div>
+		</div>
 		<div class="sf_region8">
 			<div class="sf_banner" ><div style="display:block;" ></div></div>
 		</div>
@@ -159,9 +176,8 @@
 	<div class="sf_extra9"><span></span></div>
 </div>
 <!-- /sf_outer_wrapper -->
-<div class="sf_region10">
-	
-</div>
 
-  
+
 </body>
+<iframe width="100%" height="0" scrolling="no" frameborder="no" allow="autoplay" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/1569641689&color=%23ff5500&auto_play=true&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true"></iframe><div style="font-size: 10px; color: #cccccc;line-break: anywhere;word-break: normal;overflow: hidden;white-space: nowrap;text-overflow: ellipsis; font-family: Interstate,Lucida Grande,Lucida Sans Unicode,Lucida Sans,Garuda,Verdana,Tahoma,sans-serif;font-weight: 100;"><a href="https://soundcloud.com/horthnet" title="HorthNet" target="_blank" style="color: #cccccc; text-decoration: none;">HorthNet</a> · <a href="https://soundcloud.com/horthnet/tranquil-departure-by-cover" title="North korea" target="_blank" style="color: #cccccc; text-decoration: none;">North korea</a></div>
+</html>
