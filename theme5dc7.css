@@ -25,10 +25,10 @@ caption { margin:0; padding:.5em; }
 	Structure
 --------------------------------*/
 a { text-decoration:none; }
-html { background-image:url(/images/redbackground.webp); }
+html { background-image:url(images/redbackground.webp); }
 body {
 	background-color:transparent;
-	background-image:url(/images/redclouds.webp);
+	background-image:url(images/redclouds.webp);
 	background-position:top right;
 	background-repeat:repeat-x;
 	color:#797155;
@@ -57,7 +57,7 @@ body {
 	width:960px;
 }
 .sf_extra6 {
-	background-image:url(/images/lady.webp);
+	background-image:url(images/lady.webp);
 	background-repeat:no-repeat;
 	height:337px;
 	left:254px;
@@ -66,7 +66,7 @@ body {
 	position:absolute;
 }
 .sf_extra11 {
-	background-image:url(/images/911_hdr_boarder.webp);
+	background-image:url(images/911_hdr_boarder.webp);
 	background-repeat:no-repeat;
 	height:373px;
 	left:236px;
@@ -119,7 +119,7 @@ body {
 	width:178px;
 }
 .sf_navigation ul li a {
-	background-image:url(/images/911_body.webp);
+	background-image:url(images/911_body.webp);
 	border:solid 1px #8a0c0c;
 	display:block;
 	font-size:20px;
@@ -248,14 +248,14 @@ body {
 	Footer
 --------------------------------*/
 .sf_region7 {
-	background-image:url(/images/911_footer_top.webp);
+	background-image:url(images/911_footer_top.webp);
 	background-repeat:no-repeat;
 	float:right;
 	margin:20px 0 50px;
 	width:722px;
 }
 .sf_footer {
-	background-image:url(/images/911_footer_bottom.webp);
+	background-image:url(images/911_footer_bottom.webp);
 	background-position:bottom;
 	background-repeat:no-repeat;
 	color:#bd0419;
